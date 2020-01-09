@@ -1,4 +1,6 @@
+![](https://github.com/moonolgerd/Blazor.Notifications/workflows/.NET%20Core/badge.svg)
 [![Package Version](https://img.shields.io/nuget/v/BlazorNotifications.svg)](https://www.nuget.org/packages/BlazorNotifications/)
+
 # Blazor Notifications
 
 Blazor Server Class Library for sending Web Notifications
