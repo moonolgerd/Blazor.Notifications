@@ -3,9 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RazorLangVersion>3.0</RazorLangVersion>
+    <PackageId>BlazorNotifications</PackageId>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>moonolgerd</Authors>
-    <Version>0.0.1</Version>
+    <Description>Blazor Server Web Notifications</Description>
+    <RepositoryUrl>https://github.com/moonolgerd/Blazor.Notifications</RepositoryUrl>
+    <Version>0.0.4</Version>
   </PropertyGroup>
 
 
