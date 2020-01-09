@@ -1,3 +1,4 @@
+[![Package Version](https://img.shields.io/nuget/v/BlazorNotifications.svg)](https://www.nuget.org/packages/BlazorNotifications/)
 # Blazor Notifications
 
 Blazor Server Class Library for sending Web Notifications
