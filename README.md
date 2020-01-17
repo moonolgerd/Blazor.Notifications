@@ -19,7 +19,7 @@ public void ConfigureServices(IServiceCollection services)
 Add to *_Host.cshtml*
 
 ```html
-<script src="_content/Blazor.Notifications/notifier.js"></script>
+<script src="_content/BlazorNotifications/notifier.js"></script>
 ```
 
 Add to your razor file
