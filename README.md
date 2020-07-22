@@ -7,6 +7,8 @@ Blazor Server Class Library for sending Web Notifications
 
 ## Usage
 
+### Blazor.Server
+
 Add to *Startup.cs*
 
 ```c#
@@ -16,13 +18,32 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
+### Blazor.WebAssembly
+
+Add to *Program.cs*
+```c#
+public static async Task Main(string[] args)
+{
+    builder.Services.AddNotifications();
+}
+```
+### Blazor.Server
+
 Add to *_Host.cshtml*
 
 ```html
 <script src="_content/BlazorNotifications/notifier.js"></script>
 ```
 
-Add to your razor file
+### Blazor.WebAssembly
+
+Add to *wwwroot/index.html*
+
+```html
+<script src="_content/BlazorNotifications/notifier.js"></script>
+```
+
+Add to your .razor file
 
 ```c#
 @inject Blazor.Notifications.NotificationService NotificationService
