@@ -17,3 +17,5 @@ jobs:
       run: dotnet build --configuration Release
     - name: Package
       run: dotnet pack -c Release
+    - name: Nuget Publish
+      run: dotnet nuget push -s nuget.org -k ${{secrets.NUGET_API_KEY}} "Blazor.Notifications/bin/Release/BlazorNotifications.*.nupkg"
