@@ -3,7 +3,7 @@
 
 # Blazor Notifications
 
-Blazor Server Class Library for sending Web Notifications
+Blazor Class Library for sending Web Notifications
 
 ## Usage
 
