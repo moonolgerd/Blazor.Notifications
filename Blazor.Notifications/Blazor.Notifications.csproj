@@ -6,9 +6,9 @@
 		<PackageId>BlazorNotifications</PackageId>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<Authors>moonolgerd</Authors>
-		<Description>Blazor Server Web Notifications</Description>
+		<Description>Blazor Web Notifications</Description>
 		<RepositoryUrl>https://github.com/moonolgerd/Blazor.Notifications</RepositoryUrl>
-		<VersionPrefix>1.0.1</VersionPrefix>
+		<VersionPrefix>1.0.2</VersionPrefix>
 		<PackageProjectUrl>https://github.com/moonolgerd/Blazor.Notifications</PackageProjectUrl>
 	</PropertyGroup>
 
