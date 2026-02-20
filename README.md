@@ -5,6 +5,14 @@
 
 Blazor Class Library for sending Web Notifications
 
+## NuGet Package
+
+[BlazorNotifications on NuGet](https://www.nuget.org/packages/BlazorNotifications/)
+
+```powershell
+Install-Package BlazorNotifications
+```
+
 ## Usage
 
 ### Blazor.Server
